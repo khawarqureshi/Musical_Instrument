@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Music Instruments</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage">MUSIC INSTRUMENTS</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="ourTeam.html">OUR TEAM</a></li>
+            <li><a href="contactUs.html">CONTACT US</a></li>
+            <li><a href="game.html">GAME</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- (Products Section) -->
+    <div id="product" class="container-fluid text-center bg-grey">
+      <h2>PRODUCTS</h2>
+      <h4>We Deal with all Music Instruments.</h4>
+      <div class="row text-center slideanim">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/microphone.jpg"
+              alt="Microphone"
+              style="width: 100%"
+            />
+            <p><strong>Microphone</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn1()">Add To cart</button>
+            <p style="color: green" id="text1"></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/drumKit.jpg"
+              alt="drumKit"
+              style="width: 100%"
+            />
+            <p><strong>Drum Kit</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn2()">Add To cart</button>
+            <p style="color: green" id="text2"></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/guitar.jpg"
+              alt="Guitar"
+              style="width: 100%"
+            />
+            <p><strong>Guitar</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn3()">Add To cart</button>
+            <p style="color: green" id="text3"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center slideanim">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/keyboard.jpg"
+              alt="keyboard"
+              style="width: 100%"
+            />
+            <p><strong>keyboard</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn4()">Add To cart</button>
+            <p style="color: green" id="text4"></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/pedalDrum.jpeg"
+              alt="pedalDrum"
+              style="width: 100%"
+            />
+            <p><strong>Pedal Drum</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn5()">Add To cart</button>
+            <p style="color: green" id="text5"></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/piano.jpeg"
+              alt="Piano"
+              style="width: 100%"
+            />
+            <p><strong>Piano</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn6()">Add To cart</button>
+            <p style="color: green" id="text6"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center slideanim">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/Drum Headphones.jpg"
+              alt="HeadPhones"
+              style="width: 100%"
+            />
+            <p><strong>Drum HeadPhones</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn7()">Add To cart</button>
+            <p style="color: green" id="text7"></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/DJ Controller.jpg"
+              alt="Controller"
+              style="width: 100%"
+            />
+            <p><strong>DJ Controller</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn8()">Add To cart</button>
+            <p style="color: green" id="text8"></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="images/products/Guitar Plug.jpg"
+              alt="Guitar"
+              style="width: 100%"
+            />
+            <p><strong>Guitar Plug</strong> <span> | Price $50</span></p>
+            <button onclick="clickBtn9()">Add To cart</button>
+            <p style="color: green" id="text9"></p>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <h2>What our customers say</h2>
+      <div
+        id="myCarousel"
+        class="carousel slide text-center"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <h4>
+              "This company is the best. I am so happy with the result!"<br /><span
+                >Michael Roe, Singapore</span
+              >
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              "One word... WOW!!"<br /><span
+                >Fredrick Norm, Salesman, Rep Inc</span
+              >
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              "Could I... BE any more happy with this company?"<br /><span
+                >Chandler Bing, Actor, FriendsAlot</span
+              >
+            </h4>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a
+          class="left carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- (Footer Section) -->
+    <footer class="mainfooter" role="contentinfo">
+      <div class="footer-middle">
+        <div class="text-center">
+          <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+          </a>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>MUSIC INSTRUMENTS</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#"></a></li>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="product.html">PRODUCTS</a></li>
+                  <li><a href="ourTeam.html">OUR TEAM</a></li>
+                  <li><a href="contactUs.html">CONTACT US</a></li>
+                  <li><a href="game.html">GAME</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <!--Column2-->
+              <div class="footer-pad">
+                <h4>INSTRUCTIONS</h4>
+                <ul class="list-unstyled">
+                  <li><a href=""></a></li>
+                  <li><a href="">PRIVACY POLICY</a></li>
+                  <li><a href="">TERMS OF USE</a></li>
+                  <li><a href="">SITEMAP</a></li>
+                  <li><a href="">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--Column3-->
+            <div class="col-md-4 col-sm-4">
+              <h4>Follow Us</h4>
+              <ul class="social-network social-circle">
+                <li>
+                  <a href="#" class="icoFacebook" title="Facebook"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="icoLinkedin" title="Linkedin"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="icoTwitter" title="Twitter"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="icoInstagram" title="Instagram"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="icoGithub" title="Github"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 copy">
+              <p class="text-center">
+                &copy; Music Instruments | 2021 All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function clickBtn1() {
+        document.getElementById("text1").innerHTML = "Added to cart.";
+      }
+      function clickBtn2() {
+        document.getElementById("text2").innerHTML = "Added to cart.";
+      }
+      function clickBtn3() {
+        document.getElementById("text3").innerHTML = "Added to cart.";
+      }
+      function clickBtn4() {
+        document.getElementById("text4").innerHTML = "Added to cart.";
+      }
+      function clickBtn5() {
+        document.getElementById("text5").innerHTML = "Added to cart.";
+      }
+      function clickBtn6() {
+        document.getElementById("text6").innerHTML = "Added to cart.";
+      }
+      function clickBtn7() {
+        document.getElementById("text7").innerHTML = "Added to cart.";
+      }
+      function clickBtn8() {
+        document.getElementById("text8").innerHTML = "Added to cart.";
+      }
+      function clickBtn9() {
+        document.getElementById("text9").innerHTML = "Added to cart.";
+      }
+    </script>
+
+    <script src="js/index.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
